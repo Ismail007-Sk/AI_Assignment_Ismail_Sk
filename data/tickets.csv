@@ -1,0 +1,251 @@
+ticket_id,ticket_description,category,priority,status
+T001,I am unable to sign in even though my username and password are correct,Login Issue,Critical,Open
+T002,The application crashes when I attempt to import a CSV file,Application Error,Critical,Open
+T003,I need an audit report showing recent changes made by administrators,Report,Critical,Open
+T004,Unable to update company billing information and VAT ID,Account Update,Critical,Open
+T005,Dashboard takes over 30 seconds to load data,Performance,Medium,Closed
+T006,I am unable to access the portal because the login session expires immediately,Login Issue,High,Closed
+T007,The search function displays an error instead of returning results,Application Error,Low,Open
+T008,The sales report is showing incorrect totals for this quarter,Report,Medium,Closed
+T009,I want to change the address listed on my account,Account Update,High,Closed
+T010,Server response time has degraded significantly today,Performance,Critical,Open
+T011,My temporary password is not working when I try to access the account,Login Issue,Medium,Closed
+T012,The application displays a database error while loading customer information,Application Error,Medium,In Progress
+T013,The report is displaying duplicate entries for several customers,Report,Critical,Open
+T014,My company has changed its legal name and I need to update the account,Account Update,Medium,Closed
+T015,High latency when querying customer database,Performance,Medium,Closed
+T016,Forgotten password link is returning an expired token error,Login Issue,Low,Closed
+T017,The page becomes unavailable after clicking the submit button,Application Error,High,Closed
+T018,I need the annual revenue report for our finance team,Report,High,Closed
+T019,I need to modify the department information in my user profile,Account Update,Medium,Closed
+T020,Page rendering is extremely sluggish on Chrome browser,Performance,Medium,Open
+T021,The two factor authentication prompt is not appearing during login,Login Issue,High,Closed
+T022,The checkout page fails with an application error before the transaction completes,Application Error,Medium,Closed
+T023,I need a detailed report of all purchases made this month,Report,Low,Closed
+T024,My profile changes are not being saved after I click update,Account Update,Low,Closed
+T025,Uploading a large file takes much longer than expected,Performance,High,Open
+T026,The sign-in button does nothing when I enter my account details,Login Issue,High,Closed
+T027,The application stops working whenever I open the notification settings,Application Error,Medium,Closed
+T028,I need to export filtered customer data into an Excel report,Report,Medium,Closed
+T029,Our organization has a new administrator who needs account access,Account Update,Low,Closed
+T030,There is a significant delay between clicking a button and getting a response,Performance,Low,Closed
+T031,The authentication window closes before I can complete the login process,Login Issue,Critical,Open
+T032,The application crashes whenever I try to create a new record,Application Error,High,Open
+T033,I need to export the current dashboard statistics into a report,Report,Medium,Closed
+T034,Please change my notification preferences in the account settings,Account Update,Medium,In Progress
+T035,Application is extremely slow during peak hours,Performance,Medium,Open
+T036,I am unable to access the portal because the login session expires immediately,Login Issue,Medium,Closed
+T037,I receive a 403 error when trying to access a protected feature,Application Error,Critical,Open
+T038,Please provide a report of transactions processed during the weekend,Report,Critical,Closed
+T039,Please update the company name displayed on our account,Account Update,Low,Closed
+T040,The application takes too long to display updated customer information,Performance,Low,Closed
+T041,I was logged out unexpectedly and now the system will not let me sign back in,Login Issue,Low,Closed
+T042,The dashboard fails to load and displays an internal application error,Application Error,High,Closed
+T043,I need an audit report showing recent changes made by administrators,Report,Low,In Progress
+T044,Need to change primary email address associated with account,Account Update,Medium,Closed
+T045,The application takes a long time to respond to simple requests,Performance,Low,Closed
+T046,I was logged out unexpectedly and now the system will not let me sign back in,Login Issue,High,Open
+T047,An exception occurs when loading the details of an existing order,Application Error,Low,Closed
+T048,I need a report comparing this month's sales with the previous month,Report,Low,In Progress
+T049,I need to change the default contact information for our organization,Account Update,Medium,Open
+T050,The website becomes slow when multiple users access the dashboard,Performance,Low,Closed
+T051,The application accepts my credentials but does not open my account,Login Issue,Low,Closed
+T052,I get an error message when trying to update an existing customer record,Application Error,Low,Closed
+T053,The scheduled report was generated but never emailed to me,Report,Medium,Closed
+T054,My company has changed its legal name and I need to update the account,Account Update,High,Closed
+T055,The application takes a long time to respond to simple requests,Performance,High,Open
+T056,Invalid credentials error message on sign in page,Login Issue,Medium,Closed
+T057,The application crashes when I attempt to import a CSV file,Application Error,Critical,Closed
+T058,Discrepancy found in end of month financial report,Report,High,In Progress
+T059,Please update the contact name associated with our company account,Account Update,Critical,Open
+T060,Refreshing the page takes an unusually long time to complete,Performance,High,Open
+T061,I cannot remember my password and the recovery process is not working,Login Issue,High,Closed
+T062,The application cannot complete the requested operation and shows an error,Application Error,High,Open
+T063,I need to export the current dashboard statistics into a report,Report,High,Closed
+T064,Profile picture upload keeps failing with format error,Account Update,Medium,In Progress
+T065,Server response time has degraded significantly today,Performance,Critical,Closed
+T066,User session keeps logging out automatically every 2 minutes,Login Issue,High,Open
+T067,The API request fails and returns an error response from the server,Application Error,Critical,Open
+T068,Please provide a report of transactions processed during the weekend,Report,High,In Progress
+T069,I want to remove a former employee from our account,Account Update,Low,Closed
+T070,Server response time has degraded significantly today,Performance,Critical,In Progress
+T071,Cannot log into my account after password reset,Login Issue,Low,In Progress
+T072,A blank error page appears after submitting the request,Application Error,High,Closed
+T073,I need a report containing employee activity for the previous month,Report,Low,In Progress
+T074,Unable to update my company's contact information,Account Update,High,In Progress
+T075,Loading the analytics dashboard takes several minutes,Performance,Low,Closed
+T076,The sign-in page keeps loading without allowing me to enter the application,Login Issue,High,In Progress
+T077,The page displays a server error whenever I refresh it,Application Error,Medium,Closed
+T078,The scheduled report was generated but never emailed to me,Report,High,In Progress
+T079,I need to change the default contact information for our organization,Account Update,Critical,Open
+T080,System freeze when opening large data tables,Performance,Medium,Closed
+T081,The application accepts my credentials but does not open my account,Login Issue,High,In Progress
+T082,API endpoint returning 404 resource not found error,Application Error,Low,Open
+T083,Need user activity logs report for compliance audit,Report,Medium,Closed
+T084,I need to update the name associated with my account,Account Update,Low,Closed
+T085,High latency when querying customer database,Performance,Medium,Closed
+T086,The application accepts my credentials but does not open my account,Login Issue,High,Open
+T087,I receive an internal error when trying to add a new item to the system,Application Error,Medium,Closed
+T088,Can I get a report showing sales grouped by region?,Report,Critical,Closed
+T089,Please change my notification preferences in the account settings,Account Update,High,Closed
+T090,Page rendering is extremely sluggish on Chrome browser,Performance,Critical,Closed
+T091,User session keeps logging out automatically every 2 minutes,Login Issue,Critical,Open
+T092,The system is returning an error when I try to delete a record,Application Error,Critical,Open
+T093,Need user activity logs report for compliance audit,Report,Low,Closed
+T094,Unable to update my company's contact information,Account Update,High,Closed
+T095,Data takes too long to refresh after making an update,Performance,Medium,In Progress
+T096,The application accepts my credentials but does not open my account,Login Issue,Critical,Closed
+T097,The application keeps crashing when I try to upload a document,Application Error,Low,Closed
+T098,The weekly performance report is missing from my dashboard,Report,High,Closed
+T099,I want to change the address listed on my account,Account Update,High,Closed
+T100,Opening customer profiles is noticeably slower than before,Performance,High,Closed
+T101,My saved login credentials are no longer being accepted by the system,Login Issue,Medium,Closed
+T102,File upload fails with unknown system error,Application Error,Critical,Open
+T103,How can I generate a report for a specific date range?,Report,Critical,Open
+T104,My new phone number is not being saved to my profile,Account Update,Medium,Closed
+T105,The search feature becomes slow when looking through many records,Performance,Medium,Closed
+T106,Cannot log into my account after password reset,Login Issue,Critical,In Progress
+T107,A system exception is displayed whenever I try to access the administration page,Application Error,Low,Closed
+T108,I need the annual revenue report for our finance team,Report,Medium,Open
+T109,My new phone number is not being saved to my profile,Account Update,Critical,Open
+T110,High latency when querying customer database,Performance,Low,Closed
+T111,The two factor authentication prompt is not appearing during login,Login Issue,Medium,Closed
+T112,The page displays a server error whenever I refresh it,Application Error,Low,Closed
+T113,Can you generate a report of all active customer accounts?,Report,Low,Closed
+T114,Unable to update my company's contact information,Account Update,Low,Closed
+T115,The application takes several minutes to load the transaction history,Performance,Critical,Closed
+T116,I receive an invalid username error even though the username is correct,Login Issue,Medium,Closed
+T117,I receive an internal error when trying to add a new item to the system,Application Error,Low,Closed
+T118,How can I generate a report for a specific date range?,Report,High,Closed
+T119,I need to change the default language configured for my account,Account Update,Low,Closed
+T120,There is a significant delay between clicking a button and getting a response,Performance,High,In Progress
+T121,My temporary password is not working when I try to access the account,Login Issue,High,Closed
+T122,The application crashes when I attempt to import a CSV file,Application Error,High,Closed
+T123,Can I get a report showing sales grouped by region?,Report,High,Closed
+T124,I need to modify the department information in my user profile,Account Update,High,Closed
+T125,The system has noticeable delays when switching between dashboard tabs,Performance,High,Open
+T126,My saved login credentials are no longer being accepted by the system,Login Issue,High,In Progress
+T127,The system is returning an error when I try to delete a record,Application Error,Critical,Closed
+T128,Please generate a report of unresolved support tickets,Report,Medium,Closed
+T129,I need to change the username associated with my account,Account Update,Critical,Closed
+T130,Reports take too long to load even for a small date range,Performance,High,Closed
+T131,Cannot log into my account after password reset,Login Issue,Medium,Closed
+T132,The application fails during data import and does not complete the operation,Application Error,Medium,Closed
+T133,The scheduled report was generated but never emailed to me,Report,High,Open
+T134,Please update the contact name associated with our company account,Account Update,Medium,Closed
+T135,The application takes a long time to respond to simple requests,Performance,Medium,Closed
+T136,I was logged out unexpectedly and now the system will not let me sign back in,Login Issue,Medium,Closed
+T137,A system exception is displayed whenever I try to access the administration page,Application Error,High,Open
+T138,The monthly usage report is not showing the latest data,Report,Medium,Closed
+T139,I need to add a new administrator to our account,Account Update,Medium,Closed
+T140,Application is extremely slow during peak hours,Performance,High,Open
+T141,The sign-in button does nothing when I enter my account details,Login Issue,Medium,Closed
+T142,I get an error message when trying to update an existing customer record,Application Error,Medium,Closed
+T143,The sales report is showing incorrect totals for this quarter,Report,Medium,Closed
+T144,Please update the contact name associated with our company account,Account Update,Critical,In Progress
+T145,The website freezes briefly whenever I switch between different sections,Performance,Medium,Closed
+T146,Login works on my phone but fails when I try from my laptop,Login Issue,Critical,Open
+T147,The application returns an error when I try to create a new customer,Application Error,Medium,Closed
+T148,Please provide a report of transactions processed during the weekend,Report,High,Closed
+T149,Please remove an old email address from my profile,Account Update,Medium,Closed
+T150,Uploading a large file takes much longer than expected,Performance,High,Closed
+T151,Cannot log into my account after password reset,Login Issue,Low,Closed
+T152,Export button triggers a crash and closes the application,Application Error,Medium,Closed
+T153,Can you generate a customer account summary for the current quarter?,Report,Medium,Closed
+T154,I need to update the name associated with my account,Account Update,Medium,Closed
+T155,Large tables take a long time to open and scroll through,Performance,Low,Closed
+T156,My account access stopped working after several incorrect password attempts,Login Issue,Medium,Closed
+T157,The system fails while processing a file imported from my computer,Application Error,High,In Progress
+T158,The generated report contains incorrect customer information,Report,Low,Closed
+T159,I need to update the tax identification information on our company profile,Account Update,Medium,Closed
+T160,Search results are taking unusually long to appear,Performance,Medium,Closed
+T161,The two factor authentication prompt is not appearing during login,Login Issue,High,Open
+T162,An unexpected application error occurs whenever I open the reports section,Application Error,High,Open
+T163,I need an audit report showing recent changes made by administrators,Report,Critical,Open
+T164,I need to change the default language configured for my account,Account Update,Medium,Closed
+T165,Page rendering is extremely sluggish on Chrome browser,Performance,High,Open
+T166,The reset password page gives an error when I submit the new password,Login Issue,High,Open
+T167,The application cannot complete the requested operation and shows an error,Application Error,High,Closed
+T168,Requesting custom quarterly revenue analytics report,Report,Low,Closed
+T169,I need to change the default language configured for my account,Account Update,Medium,In Progress
+T170,Data takes too long to refresh after making an update,Performance,Medium,Closed
+T171,I am unable to authenticate through the company's single sign-on portal,Login Issue,Medium,Closed
+T172,The system fails to save changes and displays an unexpected error message,Application Error,Low,Closed
+T173,How can I generate a report for a specific date range?,Report,High,Open
+T174,Please update the contact name associated with our company account,Account Update,Medium,Closed
+T175,Customer records take several seconds to appear after searching,Performance,Low,In Progress
+T176,I am unable to access the portal because the login session expires immediately,Login Issue,Critical,Open
+T177,An exception occurs when loading the details of an existing order,Application Error,Medium,Open
+T178,I need to export the current dashboard statistics into a report,Report,Critical,Open
+T179,Profile picture upload keeps failing with format error,Account Update,High,Open
+T180,The report generation process is taking significantly longer than usual,Performance,High,Closed
+T181,I cannot sign in after changing my password earlier today,Login Issue,High,In Progress
+T182,The application cannot complete the requested operation and shows an error,Application Error,High,Open
+T183,Requesting custom quarterly revenue analytics report,Report,Medium,Open
+T184,I want to replace the current recovery email address,Account Update,High,Open
+T185,High latency when querying customer database,Performance,Medium,In Progress
+T186,Login works on my phone but fails when I try from my laptop,Login Issue,Low,Closed
+T187,A blank error page appears after submitting the request,Application Error,Critical,Closed
+T188,I need a report containing employee activity for the previous month,Report,Medium,Closed
+T189,My company has changed its legal name and I need to update the account,Account Update,High,Closed
+T190,The application takes a long time to respond to simple requests,Performance,Medium,Open
+T191,I was logged out unexpectedly and now the system will not let me sign back in,Login Issue,Critical,Open
+T192,The application keeps crashing when I try to upload a document,Application Error,Medium,In Progress
+T193,The report is displaying duplicate entries for several customers,Report,High,Closed
+T194,Need to transfer account ownership to another administrator,Account Update,Medium,Closed
+T195,The website freezes briefly whenever I switch between different sections,Performance,Critical,Closed
+T196,I am unable to sign in even though my username and password are correct,Login Issue,Medium,Closed
+T197,Uncaught exception error when opening customer profile,Application Error,High,Closed
+T198,I need the annual revenue report for our finance team,Report,Critical,Closed
+T199,Need to change primary email address associated with account,Account Update,Low,Closed
+T200,Server response time has degraded significantly today,Performance,High,Closed
+T201,The reset password page gives an error when I submit the new password,Login Issue,Medium,Closed
+T202,I get an unexpected error when navigating to the user management section,Application Error,Low,Closed
+T203,I need an audit report showing recent changes made by administrators,Report,Medium,Closed
+T204,I need to modify the department information in my user profile,Account Update,High,Open
+T205,Memory usage spikes when generating large reports,Performance,High,Closed
+T206,The reset password page gives an error when I submit the new password,Login Issue,Medium,Closed
+T207,I receive a 403 error when trying to access a protected feature,Application Error,Critical,Closed
+T208,I am unable to download the requested report as a PDF,Report,Medium,Closed
+T209,Please update the company name displayed on our account,Account Update,High,Closed
+T210,Search results are taking unusually long to appear,Performance,Medium,Closed
+T211,Login works on my phone but fails when I try from my laptop,Login Issue,Critical,Closed
+T212,A warning appears and the application closes when I open the invoice page,Application Error,Medium,Closed
+T213,The report scheduling option is not creating reports at the selected time,Report,Medium,Closed
+T214,Unable to update company billing information and VAT ID,Account Update,Critical,Open
+T215,The website freezes briefly whenever I switch between different sections,Performance,High,Closed
+T216,I cannot remember my password and the recovery process is not working,Login Issue,Medium,Closed
+T217,The page displays a server error whenever I refresh it,Application Error,High,Closed
+T218,How can I generate a report for a specific date range?,Report,High,Open
+T219,Please remove an old email address from my profile,Account Update,High,Closed
+T220,The system becomes unresponsive when working with large datasets,Performance,High,Closed
+T221,I cannot access my account because the password reset link has expired,Login Issue,Medium,In Progress
+T222,I get an unexpected error when navigating to the user management section,Application Error,Medium,In Progress
+T223,The scheduled report was generated but never emailed to me,Report,High,Closed
+T224,I need to update several details in my profile after changing jobs,Account Update,Critical,Open
+T225,Search results are taking unusually long to appear,Performance,Critical,Open
+T226,The sign-in page keeps loading without allowing me to enter the application,Login Issue,Medium,Open
+T227,A warning appears and the application closes when I open the invoice page,Application Error,Critical,Open
+T228,The report download contains incomplete or missing information,Report,Medium,Closed
+T229,I need to add a new administrator to our account,Account Update,Low,Closed
+T230,The website becomes slow when multiple users access the dashboard,Performance,Critical,Open
+T231,The authentication window closes before I can complete the login process,Login Issue,Critical,Closed
+T232,File upload fails with unknown system error,Application Error,High,Closed
+T233,Please provide a summary report of our monthly account activity,Report,Critical,Open
+T234,I need to add a secondary phone number to my account,Account Update,Medium,Closed
+T235,There is a significant delay between clicking a button and getting a response,Performance,Medium,Closed
+T236,My account access stopped working after several incorrect password attempts,Login Issue,High,Closed
+T237,The system crashes when I try to open a previously saved record,Application Error,High,Closed
+T238,PDF export for client billing report is blank,Report,Low,Closed
+T239,I need to update the billing address on my account,Account Update,High,Open
+T240,The website freezes briefly whenever I switch between different sections,Performance,High,Open
+T241,Cannot log into my account after password reset,Login Issue,High,Closed
+T242,The application returns an error when I try to create a new customer,Application Error,High,Open
+T243,The report download contains incomplete or missing information,Report,Medium,Closed
+T244,My profile changes are not being saved after I click update,Account Update,Low,Closed
+T245,Reports take too long to load even for a small date range,Performance,High,Closed
+T246,I never received the verification code required to access my account,Login Issue,Low,Closed
+T247,Form submission button is unresponsive on dashboard,Application Error,Critical,Closed
+T248,The report download contains incomplete or missing information,Report,High,Closed
+T249,I need to update several details in my profile after changing jobs,Account Update,Medium,In Progress
+T250,The application takes too long to display updated customer information,Performance,Medium,Closed
