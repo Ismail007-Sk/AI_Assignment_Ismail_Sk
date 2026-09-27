@@ -106,6 +106,73 @@ st.set_page_config(
 st.title("🎫 Customer Support Classifier")
 
 st.markdown("---")
+with st.expander("ℹ️ About Prediction Confidence"):
+
+    st.markdown(
+        """
+        ### How is confidence calculated?
+
+        The confidence score represents the **highest probability returned
+        by the classification model**.
+
+        The model uses **TF-IDF + Multinomial Naive Bayes**. It mainly
+        relies on the words and text patterns learned from the training
+        data rather than understanding the complete meaning of a sentence.
+
+        The training dataset is **synthetic**, so the model learns from the
+        vocabulary and writing patterns present in those synthetic ticket
+        descriptions. If a new ticket uses unfamiliar words or expressions,
+        the model may have less evidence to associate it with a particular
+        category. Therefore, the prediction can be correct while still
+        having a lower confidence score.
+        """
+    )
+
+    st.markdown("### Example of a low-confidence prediction")
+
+    st.code(
+        """Account Update       18.0%
+Application Error    21.0%
+Login Issue          26.7%
+Performance          17.0%
+Report               17.3%""",
+        language="text"
+    )
+
+    st.info(
+        """
+        **Predicted category: Login Issue**
+
+        Login Issue is selected because **26.7% is the highest probability**
+        among the five categories. However, the probability is relatively
+        low, meaning the model does not have strong evidence to clearly
+        distinguish it from the other categories.
+        """
+    )
+
+    st.markdown(
+        """
+        ### Why can this happen?
+
+        For example, the training data might contain:
+
+        > *"I cannot sign in to my account."*
+
+        while a customer might write:
+
+        > *"I can't get past the sign-in screen."*
+
+        A human can recognize that both describe a login problem. However,
+        TF-IDF primarily relies on the text features it learned during
+        training. Because the wording is different, the model may assign
+        lower confidence to the prediction.
+
+        A **larger and more diverse dataset containing real customer
+        descriptions** would help the model handle a wider range of
+        vocabulary and writing styles.
+        """
+    )
+st.markdown("---")
 
 st.subheader("Ticket Description")
 

@@ -189,9 +189,9 @@ GROQ_API_KEY=your_api_key_here
 
 
 ## 9. Dataset Creation
-The dataset can be created using: notebooks/create_dataset.ipynb
+- The dataset can be created using: notebooks/create_dataset.ipynb
 This notebook creates the synthetic customer support ticket dataset according to the project requirements.
-The generated dataset is saved as: data/tickets.csv
+- The generated dataset is saved as: data/tickets.csv
 
 ## 10. Data Preprocessing and EDA
 Data preprocessing and exploratory data analysis are performed in: notebooks/preprocessing_eda.ipynb
@@ -292,8 +292,8 @@ The application provides:
 
 ## 15. AI-Assisted Customer Response
 The application includes an additional LLM-based feature using the Groq API.
-Provider: Groq
-Model: openai/gpt-oss-120b
+- Provider: Groq
+- Model: openai/gpt-oss-120b
 
 After the Machine Learning model predicts the ticket category, the application provides the following information to the LLM:
 - Original ticket description
@@ -345,8 +345,8 @@ If this system were developed for a real company, it could be improved by:
 - Monitoring model performance after deployment.
 
 ## 19. Project Links
-GitHub Repository: <YOUR_GITHUB_LINK>
-Live Application: <YOUR_LIVE_APPLICATION_LINK>
+- GitHub Repository: https://github.com/Ismail007-Sk/AI_Assignment_Ismail_Sk.git
+- Live Application: https://aiassignmentismailsk-pbuwv7x6trtqeqeccye53n.streamlit.app/
 
 ## Author
 Ismail Sheikh
