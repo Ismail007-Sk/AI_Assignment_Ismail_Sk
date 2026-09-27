@@ -118,6 +118,7 @@ data/tickets.csv
 ```
 
 ## 5. Project Structure
+```text
 AI_Assignment_Ismail_Sk/
 │
 ├── data/
@@ -146,13 +147,14 @@ AI_Assignment_Ismail_Sk/
 ├── .env
 ├── README.md
 └── requirements.txt
+```
 
 
 ## 6. Installation
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Ismail007-Sk/AI_Assignment_Ismail_Sk.git
 cd AI_Assignment_Ismail_Sk
 ```
 ### Step 2: Create a Virtual Environment

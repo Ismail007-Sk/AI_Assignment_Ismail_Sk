@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import streamlit as st
 import joblib
 from dotenv import load_dotenv
@@ -11,7 +12,9 @@ from groq import Groq
 
 load_dotenv()
 
-MODEL_PATH = "../model/multinomial_nb_model.pkl"
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+MODEL_PATH = BASE_DIR / "model" / "multinomial_nb_model.pkl"
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
